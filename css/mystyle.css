@@ -1,0 +1,87 @@
+#menu_principale{
+	background-image: url("../img/menu_bg.jpg");
+	background-size: cover;
+}
+#main_page{
+	background-image: linear-gradient(to left bottom, #5b0ea3, #7e009b, #990093, #ae008b, #c01383);
+}
+
+.firstcard {
+	background-image: linear-gradient(to right bottom, #6923d6, #5a2bd7, #4931d7, #3436d7, #0f3ad6);
+	opacity: .75;
+}
+.secondcard {
+	background-image: linear-gradient(to right bottom, #ff8500, #ff6936, #ff5055, #fa3e72, #e5398b);
+	opacity: .8;
+}
+.thirdcard {
+	background-image: linear-gradient(to right bottom, #d966ed, #c551eb, #ae3deb, #9228eb, #7012eb);
+	opacity: .9;
+}
+.fourthcard{
+	background-image: linear-gradient(to right bottom, #3bdebb, #00ced4, #00bce8, #00a5ef, #398be5);
+	opacity: ,8;
+}
+
+.colorful_menu{
+	background-image: linear-gradient(to bottom, #051937, #04163b, #08123f, #110c41, #1b0341); }
+
+.on_menu{
+	background: transparent;
+	opacity: .3;
+}
+
+.firstcard:hover{opacity: .85;}
+.secondcard:hover{opacity: .89;}
+.thirdcard:hover{opacity: .97;}
+
+
+
+.sidenav {
+	height: 70%;
+	width: 100%;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: transparent;
+	overflow-x: hidden;
+	padding: 0px;
+}
+
+.hr{
+	margin-top: 9%;
+	border-top: 1px solid #c6c6c6;
+	width: 60%;
+	margin-left: 20%;
+	opacity: .7;
+}
+
+.dot {
+	height: 90%;
+	width: 15%;
+	background-image: url("../img/Sohaib.jpg");
+	background-size: cover;
+	border-radius: 50%;
+	display: inline-block;
+}
+.menu_element{
+	border-radius: 30px;
+}
+.menu_element:hover{
+	background: rgba(240,240,240,.13);
+}
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #c6c6c6;
+	display: block;
+}
+
+.sidenav a:hover {
+	color: #fefefe;
+	opacity: .99;
+}
+
+
+
